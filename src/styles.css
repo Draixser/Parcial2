@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo gris oscuro */
+    color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    height: 1520px;
+    margin: 0 auto;
+    background-color: #242222; /* Fondo gris medio para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #7289da; /* Color azul discord */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #0a1e2b; /* Fondo más claro en la cabecera */
+    border-radius: 10px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000000; /* Borde de la imagen en azul */
+}
+
+.profile-info {
+    text-align: right;
+}
+
+.profile-info h1 {
+    color: #ffffff; /* Título en azul */
+    font-size: 24px;
+}
+
+.profile-info p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff0000; /
+}
+
+.social-links a:hover{
+    color: #ffffff; /
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #0a1e2b; /* Fondo gris oscuro en la sección de detalles */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.details .left {
+    text-align: left;
+    color: #43b581; /* Color verde lima para la izquierda */
+}
+
+.details .right {
+    text-align: right;
+    color: #f04747; /* Color rojo para la derecha */
+}
+
+.next-stream {
+    background-color: #0a1e2b; /* Azul discord para el próximo directo */
+    padding: 20px;
+    border-left: 5px solid #000000; /* Verde para el borde izquierdo */
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.next-stream h2 {
+    font-size: 20px;
+}
+
+.bio {
+    margin-bottom: 20px;
+    background-color: #0a1e2b; /* Fondo gris oscuro */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.community {
+    background-color: #0a1e2b; /* Fondo gris más claro */
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff; /* Texto en gris oscuro */
+}
+
+.community h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.community ul {
+    list-style-type: none;
+}
+
+.community ul li {
+    margin-bottom: 10px;
+}
+
+.community ul li a {
+    color: #ff0000; /* Azul para los enlaces */
+    text-decoration: none;
+}
+
+.community ul li a:hover {
+    color: #ffffff;
+    
+}
+
+.community ul li a:hover {
+    text-decoration: underline;
+}
+
+.JavaLogo{
+    width: 300;
+    margin-bottom: 150px;
+    justify-self: right;
+   
+}
