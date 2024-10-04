@@ -52,7 +52,8 @@ const Portfolio = () => {
         </p>
         </div>
       </div>
-      <div className="bio">  <p>Habilidades Blandas:
+      <div className="bio"> 
+       <p>Habilidades Blandas:
           Comunicación: Capacidad para expresar ideas claramente y trabajar en equipo.
           Creatividad: Innovación y pensamiento fuera de la caja para resolver problemas.
           Adaptabilidad: Flexibilidad para aprender nuevas herramientas y tecnologías rápidamente.
