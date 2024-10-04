@@ -40,7 +40,10 @@ const Portfolio = () => {
           ingeniería Multimedia, y aquí podrás encontrar información acerca de mí.
         </p>
 
-        <div>
+      
+        </div>
+
+        <div className="bio">
         <p>Habilidades Duras:
           Programación: Conocimientos en lenguajes como JavaScript, HTML, CSS, y Python.
           Diseño Gráfico: Manejo de software como Adobe Photoshop, Illustrator y After Effects.
@@ -48,10 +51,10 @@ const Portfolio = () => {
           Animación: Conocimientos en técnicas de animación 2D y 3D, usando software como Blender o Maya.
           Producción de Video: Edición y producción de video con herramientas como Premiere Pro o Final Cut Pro.
           Modelado 3D: Habilidades en la creación de modelos 3D para juegos o simulaciones.
-
         </p>
         </div>
-      </div>
+
+      
       <div className="bio"> 
        <p>Habilidades Blandas:
           Comunicación: Capacidad para expresar ideas claramente y trabajar en equipo.
@@ -59,7 +62,8 @@ const Portfolio = () => {
           Adaptabilidad: Flexibilidad para aprender nuevas herramientas y tecnologías rápidamente.
           Trabajo en Equipo: Colaboración efectiva con otros profesionales de diferentes disciplinas.
           Gestión del Tiempo: Habilidad para priorizar tareas y cumplir plazos.
-          Pensamiento Crítico: Capacidad para analizar problemas y tomar decisiones informadas.</p></div>
+          Pensamiento Crítico: Capacidad para analizar problemas y tomar decisiones informadas.</p>
+        </div>
       <div className="community">
         <h2>Comunidad</h2>
         <ul>
