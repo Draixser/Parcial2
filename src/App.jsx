@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="header">
         <div className="profile-picture">
           <img
-            src="blob:https://web.whatsapp.com/1ec97e2e-3d00-4398-9a96-d2e727e8f099"
+            src="https://scontent.fpei2-1.fna.fbcdn.net/v/t39.30808-6/293362704_5353663334672916_899890907412020431_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=4ltBqInNUj4Q7kNvgHJFAP3&_nc_ht=scontent.fpei2-1.fna&_nc_gid=ALhJrWjYz8Rh7Kq4gGEjsGt&oh=00_AYA3LjgQUsrUoerIPEdD03ieVOXcT4RBlQZBEwux2Zhrbw&oe=67051646"
             alt="/public/roa.png"
           />
         </div>
