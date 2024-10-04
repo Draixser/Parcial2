@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="header">
         <div className="profile-picture">
           <img
-            src="/public/roa.png"
+            src="/roa.png"
             alt="/public/roa.png"
           />
         </div>
