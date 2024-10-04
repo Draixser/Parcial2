@@ -1,6 +1,7 @@
 import './styles.css';
 import React from 'react';
 import Proyectos from './componentes/Proyectos';
+import Footer from './componentes/Footer';
 
 const Portfolio = () => {
   return (
@@ -90,7 +91,11 @@ const Portfolio = () => {
           alt="JavaLogo"
         />
       </div>
+      <Footer /> 
     </div>
+
+
+
   );
 };
 
