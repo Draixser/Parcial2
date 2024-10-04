@@ -39,6 +39,8 @@ const Portfolio = () => {
           Soy estudiante de la UAO, actualmente estoy haciendo la carrera de
           ingeniería Multimedia, y aquí podrás encontrar información acerca de mí.
         </p>
+
+        <div>
         <p>Habilidades Duras:
           Programación: Conocimientos en lenguajes como JavaScript, HTML, CSS, y Python.
           Diseño Gráfico: Manejo de software como Adobe Photoshop, Illustrator y After Effects.
@@ -48,7 +50,7 @@ const Portfolio = () => {
           Modelado 3D: Habilidades en la creación de modelos 3D para juegos o simulaciones.
 
         </p>
-       
+        </div>
       </div>
       <div className="bio">  <p>Habilidades Blandas:
           Comunicación: Capacidad para expresar ideas claramente y trabajar en equipo.
