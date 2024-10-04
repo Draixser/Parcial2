@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="header">
         <div className="profile-picture">
           <img
-            src="/roa.png"
+            src="blob:https://web.whatsapp.com/1ec97e2e-3d00-4398-9a96-d2e727e8f099"
             alt="/public/roa.png"
           />
         </div>
