@@ -33,10 +33,7 @@ const Portfolio = () => {
           <p>2M+ seguidores</p>
         </div>
       </div>
-      <div className="next-stream">
-        <h2>Próximo directo</h2>
-        <p>Viernes, 23 de Agosto a las 07:00 | Zona horaria: Bogotá</p>
-      </div>
+      
       <div className="bio">
         <p>
           Soy estudiante de la UAO, actualmente estoy haciendo la carrera de
