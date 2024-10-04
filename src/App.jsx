@@ -1,5 +1,6 @@
 import './styles.css';
 import React from 'react';
+import Proyectos from './componentes/Proyectos';
 
 const Portfolio = () => {
   return (
@@ -7,8 +8,8 @@ const Portfolio = () => {
       <div className="header">
         <div className="profile-picture">
           <img
-            src="https://scontent.fclo1-4.fna.fbcdn.net/v/t39.30808-6/293362704_5353663334672916_899890907412020431_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHdtrDivAlfRfDvSyxHvf2XwFH54xjLq-fAUfnjGMur51lJ9-c-1vQSX-cu-FPa9L2HSEwhnXMwbncTxdkl_meJ&_nc_ohc=heAiuSvLF8oQ7kNvgF5mcHk&_nc_ht=scontent.fclo1-4.fna&oh=00_AYA9tzkKgTOAtdDQWcLD28hB1H4nPs8LSDNc6q32k2OegA&oe=66CDB746"
-            alt="Foto de perfil"
+            src="/public/roa.png"
+            alt="/public/roa.png"
           />
         </div>
         <div className="profile-info">
@@ -41,7 +42,24 @@ const Portfolio = () => {
           Soy estudiante de la UAO, actualmente estoy haciendo la carrera de
           ingeniería Multimedia, y aquí podrás encontrar información acerca de mí.
         </p>
+        <p>Habilidades Duras:
+          Programación: Conocimientos en lenguajes como JavaScript, HTML, CSS, y Python.
+          Diseño Gráfico: Manejo de software como Adobe Photoshop, Illustrator y After Effects.
+          Desarrollo Web: Habilidades en diseño y desarrollo de sitios web, tanto front-end como back-end.
+          Animación: Conocimientos en técnicas de animación 2D y 3D, usando software como Blender o Maya.
+          Producción de Video: Edición y producción de video con herramientas como Premiere Pro o Final Cut Pro.
+          Modelado 3D: Habilidades en la creación de modelos 3D para juegos o simulaciones.
+
+        </p>
+       
       </div>
+      <div className="bio">  <p>Habilidades Blandas:
+          Comunicación: Capacidad para expresar ideas claramente y trabajar en equipo.
+          Creatividad: Innovación y pensamiento fuera de la caja para resolver problemas.
+          Adaptabilidad: Flexibilidad para aprender nuevas herramientas y tecnologías rápidamente.
+          Trabajo en Equipo: Colaboración efectiva con otros profesionales de diferentes disciplinas.
+          Gestión del Tiempo: Habilidad para priorizar tareas y cumplir plazos.
+          Pensamiento Crítico: Capacidad para analizar problemas y tomar decisiones informadas.</p></div>
       <div className="community">
         <h2>Comunidad</h2>
         <ul>
@@ -58,20 +76,7 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="community">
-        <h2>Proyectos</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/Draixser/Clase-1-web">Primera clase de Web</a>
-          </li>
-          <li>
-            <a href="https://github.com/Draixser/Clase2">Segunda clase de Web</a>
-          </li>
-          <li>
-            <a href="https://github.com/edwinmgallego/clase-practica-css-jueves/tree/main/DavidRoa2215926">
-              Tercera clase de Web
-            </a>
-          </li>
-        </ul>
+        <Proyectos />
       </div>
       <div className="card">
         <img
